@@ -1,3 +1,17 @@
 pause movie then bring milk then continue movie.....
+
 ----------------------------------------------------
 total 100 people was their
+
+
+
+At 3 pm manager called and told that task-102 is high priority now... first complete task-102 and continue with 101...
+
+Note: In this scenario i can't push 101 task changes because those changes are not completed... i cant delete those changes because i spent 5 hours to write that code.
+
+-> In this scenario we can go for 'git stash' command.
+
+-> 'git stash' is used to save working tree changes to temp area and makes working tree clean.
+
+-> Once task 102 changes pushed then we can get our task-101 changes back to working tree using 'git stash apply'.
+
